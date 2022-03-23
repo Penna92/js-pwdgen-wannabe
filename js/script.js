@@ -38,8 +38,8 @@ Q4-->R
 R-->R1[aggiungi alla password il valore stringa della seconda variabile]
 R1-->R2[aggiungi alla password il valore stringa della terza variabile]
 R2-->R3[aggiungi alla password la stringa '21']
-R3-->R4[stampa la password su schermo]
-R4-->Fine 
+R3-->R4[stampa la password su schermo assumendo che la somma tra più 'null'= '0']
+R4-->Fine
 */
 
 let userName = prompt('Qual è il tuo nome?');
